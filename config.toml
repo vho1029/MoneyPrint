@@ -6,14 +6,14 @@
     # You can use multiple keys to avoid rate limits.
     # For example: pexels_api_keys = ["123adsf4567adf89","abd1321cd13efgfdfhi"]
     # 特别注意格式，Key 用英文双引号括起来，多个Key用逗号隔开
-    pexels_api_keys = []
+    pexels_api_keys = ["wBDPyzgtJrX1Y18rBbfTkkxGOzFyInWYLIUtALmGkHEVljCaMUJvAsRJ","iemD0Yd5Av9PNae9qjU8zYU0atVuvtBd5q1SFBQJkvj7lvWk6LKhHJpK"]
 
     # Pixabay API Key
     # Register at https://pixabay.com/api/docs/ to get your API key.
     # You can use multiple keys to avoid rate limits.
     # For example: pixabay_api_keys = ["123adsf4567adf89","abd1321cd13efgfdfhi"]
     # 特别注意格式，Key 用英文双引号括起来，多个Key用逗号隔开
-    pixabay_api_keys = []
+    pixabay_api_keys = ["48430807-0184c360a5e758718beadca3d","48430854-342de954bf7b149ed129d0702"]
 
     # 如果你没有 OPENAI API Key，可以使用 g4f 代替，或者使用国内的 Moonshot API
     # If you don't have an OPENAI API Key, you can use g4f instead
@@ -36,11 +36,11 @@
 
     ########## OpenAI API Key
     # Get your API key at https://platform.openai.com/api-keys
-    openai_api_key = ""
+    openai_api_key = "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"
     # No need to set it unless you want to use your own proxy
     openai_base_url = ""
     # Check your available models at https://platform.openai.com/account/limits
-    openai_model_name = "gpt-4-turbo"
+    openai_model_name = "gpt-4o"
 
     ########## Moonshot API Key
     # Visit https://platform.moonshot.cn/console/api-keys to get your API key.
@@ -57,7 +57,7 @@
     ########## G4F
     # Visit https://github.com/xtekky/gpt4free to get more details
     # Supported model list: https://github.com/xtekky/gpt4free/blob/main/g4f/models.py
-    g4f_model_name = "gpt-3.5-turbo"
+    g4f_model_name = "o1"
 
     ########## Azure API Key
     # Visit https://learn.microsoft.com/zh-cn/azure/ai-services/openai/ to get more details
@@ -68,7 +68,7 @@
     azure_api_version = "2024-02-15-preview"
 
     ########## Gemini API Key
-    gemini_api_key=""
+    gemini_api_key="AIzaSyAHtyqjm0ppp4Ng_Q1hxAQvFvWktB7mpZQ"
     gemini_model_name = "gemini-1.0-pro"
 
     ########## Qwen API Key
@@ -82,7 +82,7 @@
 
     ########## DeepSeek API Key
     # Visit https://platform.deepseek.com/api_keys to get your API key
-    deepseek_api_key = ""
+    deepseek_api_key = "sk-f087661d60a1463396750b615cdbfe24"
     deepseek_base_url = "https://api.deepseek.com"
     deepseek_model_name = "deepseek-chat"
 
@@ -142,7 +142,7 @@
     # material_directory = "/user/harry/videos"  #表示将视频素材下载到指定的文件夹中
     # material_directory = "task"                #表示将视频素材下载到当前任务的文件夹中，这种方式无法共享已经下载的视频素材
 
-    material_directory = ""
+    material_directory = "/user/harry/videos"
 
     # Used for state management of the task
     enable_redis = false
